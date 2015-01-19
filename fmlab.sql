@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 18, 2015 at 07:06 PM
+-- Generation Time: Jan 19, 2015 at 06:37 PM
 -- Server version: 5.6.11
 -- PHP Version: 5.5.3
 
@@ -123,7 +123,7 @@ CREATE TABLE IF NOT EXISTS `theory` (
 --
 
 INSERT INTO `theory` (`name`, `theory`) VALUES
-('bernoulli', '<p>Bernoulli''s theorem states that the total energy of an ideal fluid for steady irrotational flow remains constant along a stream line. The total energy in the flowing fluid is the sum of the flow energy, the potential energy and the kinetic energy. In fluid mechanics energy of unit weight of fluid is expressed as head. The pressure head, datum head, and velocity head are represented as p/?, z, and v2/2g, respectively. Therefore the Bernoulli''s theorem can be represented by the following equation-</p>\r\n<br>\r\n<h2 border="1">H = p/&rho;g + V<sup>2</sup>/2g + Z = constant</h2>\r\n<br>\r\n<p>H        = total head</p>\r\n<p>p/&rho;g      = pressure per unit weight or pressure head</p>\r\n<p>z         = potential energy per unit weight or datum head</p>\r\n<p>V<sup>2</sup>/2g = kinetic energy per unit weight or velocity head</p>\r\n<p> &rho;        =  specific gravity of fluid</p>\r\n<br>\r\n<p>p is the pressure at a point in fluid , v is the velocity at that point and z is the height of that  point above any arbitrarily selected datum.</p>'),
+('bernoulli', '<p>Bernoulli''s theorem states that the total energy of an ideal fluid for steady irrotational flow remains constant along a stream line. The total energy in the flowing fluid is the sum of the flow energy, the potential energy and the kinetic energy. In fluid mechanics energy of unit weight of fluid is expressed as head. The pressure head, datum head, and velocity head are represented as p/&rho;g, z, and v<sup>2</sup>/2g, respectively. Therefore the Bernoulli''s theorem can be represented by the following equation-</p>\r\n<br>\r\n<h2 border="1">H = p/&rho;g + V<sup>2</sup>/2g + Z = constant</h2>\r\n<br>\r\n<p>H        = total head</p>\r\n<p>p/&rho;g      = pressure per unit weight or pressure head</p>\r\n<p>z         = potential energy per unit weight or datum head</p>\r\n<p>V<sup>2</sup>/2g = kinetic energy per unit weight or velocity head</p>\r\n<p> &rho;        =  specific gravity of fluid</p>\r\n<br>\r\n<p>p is the pressure at a point in fluid , v is the velocity at that point and z is the height of that  point above any arbitrarily selected datum.</p>'),
 ('cc-cv-cd', '<p>The coefficient of contraction Cc is equal to the ratio , where   is the area of cross section at the vena contracta. The readings of the micrometer gauge give the mean diameter  of the jet at the vena contracta at two sections perpendicular to each other. Thus, </p>\r\n\r\n<center><h2>C<sub>c</sub> = d<sup>2</sup>/d<sub>c</sub><sup>2</sup></h2><p>where d is the diameter of the orifice.</p></center>\r\n\r\n<br>\r\n<p>By applying the equations of motion to the trajectory of the jet, it can be shown that the actual velocity of the jet is given by,</p>\r\n\r\n<center><h2>V = &radic;(gx<sup>2</sup>/2y) </h2></center>\r\n\r\n                                            \r\n      \r\n\r\n             \r\n\r\n<p>therefore,</p>                 \r\n<center><h2>C<sub>c</sub> = V/&radic;(2gH) = &radic;(x<sup>2</sup>/4yH)</h2></center>\r\n\r\n\r\n<p>where x and y are the coordinates of the jet, measured with respect to the center of the vena contracta.</p>\r\n\r\n<p>The coefficient of discharge (C<sub>d</sub>) is given by ,</p> \r\n<center><h2>C<sub>d</sub> = Q/(a&radic;(2gH))</h2><p>where   is the volume of water collected in time t</p></center>\r\n\r\n            \r\n\r\n<p>Since it is difficult to determine the diameter of the jet at the vena contracta accurately, it can also be determined indirectly from the relation </p>\r\n\r\n \r\n\r\n\r\n<p>The value of C<sub>d</sub> depends upon the nominal Reynolds number N<sub>R</sub> given by</p>\r\n<center><h2>N<sub>R</sub> = Vd/v = (d&radic;(2gH))/v</h2></center>'),
 ('friction-loss', '<p>Transportation of fluids through pipes is frequently dealt with by engineers. Distribution of water and gas for domestic consumption through pipes is an example. Experimental observations by Froude on long, straight and uniform diameter pipes on the flow of water indicated that head losses due to friction hf between two sections of pipes varied in direct portion with the velocity head V<sup>2</sup>/2g, the distance between the two sections L, and inversely with the pipe diameter, d. By introducing a co-efficient of proportionality ''f'', called the friction factor. Darcy and Weisbach proposed the following equation for head loss due to friction in a pipe.</p>\r\n\r\n<center><h2>\r\n	h<sub>f</sub> = f(L/d)(V<sup>2</sup>/2g) or, f = (2gdh<sub>f</sub>)/LV<sup>2</sup>\r\n</h2></center>'),
 ('metacentric', '<p>When a body is immersed in a fluid two forces act on it; the gravitational force (weight) and the buoyant force. The buoyant force is equal to the weight of displaced fluid, and it acts through the center of gravity of the displaced fluid.</p>\r\n\r\n<p>For a body to be in equilibrium on the liquid surface as shown in Fig.1, the weight (W) and the buoyant force must lie in the same vertical line. On rotating the body as shown in Fig.2 through an angle (&theta;), the center of gravity G is usually unchanged in this position but the center of buoyancy B<sub>0</sub> shifts towards the new position. Therefore W and B will make couple that will try to balance the disturbance.</p>\r\n\r\n<p>The line of action of FB in this new position cuts the axis of symmetry at M, which is called metacentre and the distance GM is called the metacentric Height.</p>\r\n\r\n\r\n<p>G    = Center of Gravity</p>\r\n<p>B<sub>0</sub>   = Centre of Buoyancy</p>\r\n<p>B    = New center of Buoyancy</p>\r\n<p>GM = Metacentric height</p>\r\n<p>m    = Weight of hangers</p>\r\n<p>w    = Weight applied</p>\r\n<p>W   = Weight of vessel\r\n          (Including m, w)</p> \r\n<p>x     = Distance from the center</p>\r\n<p>&theta;	  = Angle of  tilt</p> \r\n\r\n\r\n<p>Theoretically, GM is determined by equation</p>\r\n<center><h2>GM = I<sub>00</sub>/V - BG</h2></center> \r\n<p>I<sub>00</sub> = Area moment of inertia of the water line area about the axis of rotation.</p>\r\n<p>V = volume of the submerged portion of vessel.</p>\r\n<p>BG = distance between center of gravity and center of buoyancy</p><br>\r\n\r\n<p>Experimentally, GM is determined by equation</p>\r\n<center><h2>GM = {(w<sub>1</sub> + m) x<sub>1</sub> - (w<sub>2</sub> + m)x<sub>2</sub>}/W tan &theta;</h2></center>'),
@@ -147,14 +147,45 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'test1', 'test@test.com', 'test');
+(1, 'test1', 'test@test.com', 'test'),
+(2, 'test2', 'test2@test.com', 'test');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vnotch`
+--
+
+CREATE TABLE IF NOT EXISTS `vnotch` (
+  `userid` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `angle` float NOT NULL,
+  `H` float NOT NULL,
+  `g` float NOT NULL,
+  `area` float NOT NULL,
+  `hi` float NOT NULL,
+  `hf` float NOT NULL,
+  `time` float NOT NULL,
+  `qt` float NOT NULL,
+  `qa` float NOT NULL,
+  `cd` float NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Dumping data for table `vnotch`
+--
+
+INSERT INTO `vnotch` (`userid`, `id`, `angle`, `H`, `g`, `area`, `hi`, `hf`, `time`, `qt`, `qa`, `cd`) VALUES
+(2, 9, 875, 87, 68, 6, 87, 8, 6, 1980670, -79, -0.0000398856);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

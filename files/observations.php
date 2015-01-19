@@ -14,3 +14,4 @@
  	</nav>
 
  
+<?php include 'footer.php' ?>

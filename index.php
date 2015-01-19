@@ -11,12 +11,12 @@
 	<meta charset="UTF-8">
 	<title>FM Lab Experiments</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
 	<script src="js/jquery.js"></script>
 	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation" style="background-color:rgb(35,45,116);color:white;">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			
@@ -78,11 +78,10 @@
 		</form>
 	</div>
 	<div class="col-md-2"></div>
+<div style="clear:both"></div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<?php include 'files/footer.php' ?>
 
-</body>
-
-
-</html>
 
 <?php 
 	if (isset($_POST['register'])) {
@@ -131,5 +130,4 @@
 	}
  ?>
 
-<?php $a = "hello" ?>
-<a href="list.php?ch=<?php echo $a ?>">hello</a>
+

@@ -12,3 +12,6 @@
  			</ul>
  		</div><!-- /.navbar-collapse -->
  	</nav>
+
+
+ 	<?php include 'footer.php' ?>

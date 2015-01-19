@@ -11,12 +11,12 @@
 	<meta charset="UTF-8">
 	<title>FM Lab Experiments</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
 	<script src="js/jquery.js"></script>
 	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation" style="background-color:rgb(35,45,116);color:white;">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			
@@ -95,9 +95,8 @@
 		</div>
 	</div>
 
-
-</body>
-</html>
+<br><br><br><br>
+<?php include 'files/footer.php' ?>
 
 
 
